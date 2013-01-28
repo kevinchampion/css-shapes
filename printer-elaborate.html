@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>Elaborate Printer</title>
+
+  <link rel='stylesheet' href='css/boilerplate.css'>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <div class="inner-wrapper">
+
+    <div class="shape-wrapper left">
+
+      <h1>Elaborate Printer</h1>
+
+      <div class="shape">
+
+        <div class="printer-elaborate">
+          <div class="paper-feeder"></div>
+          <div class="paper-lines"></div>
+          <div class="paper-lines bottom"></div>
+          <div class="buttons top"></div>
+          <div class="buttons bottom"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="style right">
+
+      <style style="display:block;" contenteditable="">
+
+.printer-elaborate {
+  width:150px;
+  height:65px;
+  background:#0088CC;
+  -moz-border-radius:8px;
+  border-radius:8px;
+  position:relative;
+  z-index:5;
+  margin: 0 auto;
+  top: 50%;
+}
+.printer-elaborate:before {
+  content:"";
+  width:60px;
+  height:32px;
+  -moz-border-radius:6px 6px 0 0;
+  border-radius:6px 6px 0 0;
+  background:#0088CC;
+  position:absolute;
+  z-index:6;
+  top:-41px;
+  left:44px;
+}
+.printer-elaborate:after {
+  content:"";
+  width:60px;
+  height:65px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  border:7px solid #FFF;
+  border-top-width:10px;
+  background:#0088CC;
+  position:absolute;
+  z-index:6;
+  top:18px;
+  left:37px;
+}
+.printer-elaborate .paper-feeder {
+  height:30px;
+  width:10px;
+  background:#0088CC;
+  left:30px;
+  top:-30px;
+  position:absolute;
+  -moz-border-radius:3px 3px 0 0;
+  border-radius:3px 3px 0 0;
+}
+.printer-elaborate .paper-feeder:after {
+  content:"";
+  height:30px;
+  width:10px;
+  background:#0088CC;
+  left:78px;
+  position:absolute;
+  -moz-border-radius:;
+  border-radius:3px 3px 0 0
+}
+.printer-elaborate .paper-lines {
+  width:50px;
+  height:3px;
+  background:#FFF;
+  position:absolute;
+  top:39px;
+  left:49px;
+  z-index:10;
+}
+.printer-elaborate .paper-lines:before,
+.printer-elaborate .paper-lines:after {
+  content:"";
+  width:50px;
+  height:3px;
+  background:#FFF;
+  position:absolute;
+  top:10px;
+}
+.printer-elaborate .paper-lines:after {
+  top:20px;
+}
+.printer-elaborate .paper-lines.bottom {
+  width:50px;
+  height:3px;
+  background:#FFF;
+  position:absolute;
+  top:69px;
+  left:49px;
+  z-index:10;
+}
+.printer-elaborate .paper-lines.bottom:after {
+  display:none;
+}
+
+.printer-elaborate .buttons {
+  width:14px;
+  height:14px;
+  right:11px;
+  background:#FFF;
+  -moz-border-radius:;
+  border-radius:7px;
+  position:absolute;
+}
+.printer-elaborate .buttons:after {
+  content:"";
+  width:8px;
+  height:8px;
+  right:3px;
+  top:3px;
+  background:#0088CC;
+  -moz-border-radius:;
+  border-radius:4px;
+  position:absolute;
+}
+.printer-elaborate .buttons.top {
+  top:8px;
+}
+.printer-elaborate .buttons.bottom {
+  top:24px;
+}
+
+      </style>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

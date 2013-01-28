@@ -1,0 +1,87 @@
+/**
+ * file Boilerplate for CSS snippet shapes.
+ */
+
+body {
+  font-family:sans-serif;
+  margin:0;
+  padding:0;
+}
+.wrapper {
+  position: relative;
+  clear: both;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  margin: 8px 0;
+}
+.inner-wrapper {
+  float: left;
+  width: 100%;
+  position: relative;
+  right: 35%;
+}
+.left, .right {
+  float: left;
+  position: relative;
+  padding: 0 0 1em 0;
+}
+.left {
+  width: 61%;
+  left: 37%;
+  min-width: 400px;
+}
+.right {
+  width: 31%;
+  left: 41%;
+  overflow: hidden;
+}
+
+.shape-wrapper h1 {
+  text-align: center;
+  color: #FFF;
+  background-color: #0088CC;
+  padding: 0 35px;
+  margin: 0 auto;
+}
+.shape {
+  position:relative;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-left: -200px;
+}
+.style style {
+  display: block;
+  white-space: pre;
+  background: #272822;
+  color: white;
+  font: 12px Monaco;
+  padding: 0 40px;
+}
+
+@media all and (max-width: 1200px) and (min-width: 0px) {
+  .right {
+   width:360px;
+  }
+}
+@media all and (max-width: 940px) and (min-width: 0px) {
+  .shape {
+    top:0;
+    position:relative;
+  }
+  .right, .left {
+    clear:both;
+    float:none;
+    margin:0 auto;
+  }
+  .right {
+    left:37%;
+    width:61%;
+    min-width:400px;
+  }
+}
+
+.clear {
+  clear:both;
+}
