@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>Secure Lock</title>
+
+  <link rel='stylesheet' href='css/boilerplate.css'>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <div class="inner-wrapper">
+
+    <div class="shape-wrapper left">
+
+      <h1>Pencil</h1>
+
+      <div class="shape">
+
+        <div class="pencil-wrapper">
+          <div class="pencil-body"></div>
+          <div class="pencil-tip"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="style right">
+
+      <style style="display:block;" contenteditable="">
+
+.pencil-wrapper {
+  margin:-40px auto 0;
+  top: 50%;
+  position:relative;
+  z-index:5;
+  -webkit-transform: rotate(40deg);
+  -moz-transform:    rotate(40deg);
+  -ms-transform:     rotate(40deg);
+  -o-transform:      rotate(40deg);
+}
+.pencil-body {
+  width:50px;
+  height:150px;
+  background:#0088CC;
+  -moz-border-radius:2px 2px 2px 2px/ 2px 2px 8px 8px;
+  border-radius:2px 2px 2px 2px/ 2px 2px 8px 8px;
+  margin: 0 auto;
+  position: relative;
+}
+.pencil-body:before {
+  content: "";
+  width: 50px;
+  height: 30px;
+  -moz-border-radius:25px 25px 2px 2px;
+  border-radius:25px 25px 2px 2px;
+  position: absolute;
+  z-index: 6;
+  top: -35px;
+  left: 0;
+  background: #0088CC;
+}
+.pencil-tip {
+  width: 0;
+  height: 0;
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+  border-top: 70px solid #0088CC;
+  position: relative;
+  margin: -1px auto 0;
+}
+.pencil-tip:before {
+  content: "";
+  width:8px;
+  height: 0;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 34px solid #FFF;
+  position: absolute;
+  left: -15px;
+  top: -67px;
+  -moz-border-radius:1px;
+  border-radius:1px;
+}
+.pencil-tip:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  border-top: 3px solid #0088CC;
+  position: absolute;
+  left: -13px;
+  top: -67px;
+}
+
+      </style>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

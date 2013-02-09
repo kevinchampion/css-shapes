@@ -10,6 +10,7 @@ Assorted all CSS shapes and icons
 - Lock
 - 1st Prize Ribbon
 - Infinity squished
+- Pencil (edit icon)
 
 # In the works
 
