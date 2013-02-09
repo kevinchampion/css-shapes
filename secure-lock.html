@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>Secure Lock</title>
+
+  <link rel='stylesheet' href='css/boilerplate.css'>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <div class="inner-wrapper">
+
+    <div class="shape-wrapper left">
+
+      <h1>Secure Lock</h1>
+
+      <div class="shape">
+
+        <div class="lock">
+          <div class="keyhole"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="style right">
+
+      <style style="display:block;" contenteditable="">
+
+.lock {
+  width:150px;
+  height:120px;
+  background:#0088CC;
+  -moz-border-radius:8px;
+  border-radius:8px;
+  position:relative;
+  z-index:5;
+  margin: 0 auto;
+  top: 50%;
+}
+.lock:before {
+  content: "";
+  width: 90px;
+  height: 45px;
+  -moz-border-radius: 65px 65px 0 0;
+  border-radius: 65px 65px 0 0;
+  border: 18px solid #0088CC;
+  border-bottom: none;
+  position: absolute;
+  z-index: 6;
+  top: -60px;
+  left: 12px;
+}
+.lock .keyhole {
+  height: 36px;
+  width: 36px;
+  background: #FFF;
+  left: 57px;
+  top: 25px;
+  position: absolute;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+}
+.lock .keyhole:before{
+  content: "";
+  border-bottom: 32px solid #FFF;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  height: 0;
+  width: 16px;
+  position: absolute;
+  left: 0px;
+  top:32px;
+}
+
+      </style>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

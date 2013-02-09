@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>Badge Ribbon</title>
+
+  <link rel='stylesheet' href='css/boilerplate.css'>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <div class="inner-wrapper">
+
+    <div class="shape-wrapper left">
+
+      <h1>Badge Ribbon</h1>
+
+      <div class="shape">
+
+        <div class="badge-ribbon-wrapper">
+          <div class="outer-ribbon"></div>
+          <div class="burst shadow"></div>
+          <div class="burst burst-second shadow"></div>
+          <div class="burst cover"></div>
+          <div class="burst burst-second cover"></div>
+          <div class="inner-ribbon"></div>
+          <div class="ribbon-message">
+            1<span class="st">st</span><span class="upper">Prize</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="style right">
+
+      <style style="display:block;" contenteditable="">
+
+.badge-ribbon-wrapper {
+  z-index: 5;
+  position: relative;
+  margin:-60px auto 0;
+  top: 50%;
+  width: 98px;
+}
+.badge-ribbon-wrapper .outer-ribbon {
+  position: relative;
+  background: #1F5C99;
+  height: 90px;
+  width: 90px;
+  -moz-border-radius:    45px;
+  -webkit-border-radius: 45px;
+  border-radius:         45px;
+  z-index:5;
+}
+.badge-ribbon-wrapper .outer-ribbon:before,
+.badge-ribbon-wrapper .outer-ribbon:after {
+  content: '';
+  position: absolute;
+  border-bottom: 70px solid #1F5C99;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  top: 70px;
+  left: -10px;
+  -webkit-transform: rotate(-140deg);
+  -moz-transform:    rotate(-140deg);
+  -ms-transform:     rotate(-140deg);
+  -o-transform:      rotate(-140deg);
+}
+.badge-ribbon-wrapper .outer-ribbon:after {
+  left: auto;
+  right: -10px;
+  -webkit-transform: rotate(140deg);
+  -moz-transform:    rotate(140deg);
+  -ms-transform:     rotate(140deg);
+  -o-transform:      rotate(140deg);
+}
+.badge-ribbon-wrapper .burst {
+  background: #1F5C99;
+  width: 75px;
+  height: 75px;
+  position: relative;
+  text-align: center;
+  margin-top:-81px;
+  margin-left:7px;
+  display:;
+  z-index:1;
+}
+.badge-ribbon-wrapper .burst.shadow {
+  -webkit-box-shadow: 0 0px 7px #666;
+  -moz-box-shadow: 0 0px 7px #666;
+  box-shadow: 0 0px 7px #666;
+}
+.badge-ribbon-wrapper .burst.cover {
+  margin-top:-75px;
+}
+.badge-ribbon-wrapper .burst:before,
+.badge-ribbon-wrapper .burst:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 75px;
+  width: 75px;
+  background: #1F5C99;
+}
+.badge-ribbon-wrapper .burst.shadow:before,
+.badge-ribbon-wrapper .burst.shadow:after {
+  -webkit-box-shadow: 0 0px 7px #666;
+  -moz-box-shadow: 0 0px 7px #666;
+  box-shadow: 0 0px 7px #666;
+}
+.badge-ribbon-wrapper .burst:before {
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+}
+.badge-ribbon-wrapper .burst:after {
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+}
+.badge-ribbon-wrapper .burst.burst-second {
+  -webkit-transform: rotate(15deg);
+  -moz-transform:    rotate(15deg);
+  -ms-transform:     rotate(15deg);
+  -o-transform:      rotate(15deg);
+  background:;
+  margin-top:-75px
+}
+.badge-ribbon-wrapper .inner-ribbon {
+  margin-top:-78px;
+  margin-left:5px;
+  position: relative;
+  background: #0088CC;
+  height: 80px;
+  width: 80px;
+  -moz-border-radius:    40px;
+  -webkit-border-radius: 40px;
+  border-radius:         40px;
+  z-index:15;
+}
+.badge-ribbon-wrapper .inner-ribbon:before,
+.badge-ribbon-wrapper .inner-ribbon:after {
+  content: '';
+  position: absolute;
+  border-bottom: 45px solid #0088CC;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  top: 70px;
+  left: 4px;
+  -webkit-transform: rotate(-140deg);
+  -moz-transform:    rotate(-140deg);
+  -ms-transform:     rotate(-140deg);
+  -o-transform:      rotate(-140deg);
+}
+.badge-ribbon-wrapper .inner-ribbon:after {
+  left: auto;
+  right: 4px;
+  -webkit-transform: rotate(140deg);
+  -moz-transform:    rotate(140deg);
+  -ms-transform:     rotate(140deg);
+  -o-transform:      rotate(140deg);
+}
+.badge-ribbon-wrapper .ribbon-message {
+  position:relative;
+  z-index:25;
+  text-align:center;
+  margin-top: -61px;
+  margin-left:8px;
+  font-size:19px;
+  line-height:18px;
+  color:#FFF;
+  font-weight:bold;
+  font-family: 'pt serif', serif;
+  width:75%;
+}
+.badge-ribbon-wrapper .ribbon-message::first-letter {
+  font-size:36px;
+}
+.badge-ribbon-wrapper .ribbon-message span.st {
+  display:inline-block;
+  top: -13px;
+  left:-3px;
+  position:relative;
+}
+.badge-ribbon-wrapper .ribbon-message span.upper {
+  text-transform:uppercase;
+  font-size: 85%;
+}
+
+      </style>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
