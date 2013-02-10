@@ -289,13 +289,85 @@
   top: -67px;
 }
 
+/* RSS */
+
+.rss-wrapper {
+  margin:-85px auto -40px;
+  position:relative;
+  z-index:5;
+  -webkit-transform: scale(.3);
+     -moz-transform: scale(.3);
+      -ms-transform: scale(.3);
+       -o-transform: scale(.3);
+          transform: scale(.3);
+}
+.rss-body {
+  width:250px;
+  height:250px;
+  background:#0088CC;
+  -moz-border-radius:32px;
+  border-radius:32px;
+  margin: 0 auto;
+  position:relative;
+}
+.rss-broadcast {
+  width:50px;
+  height:50px;
+  -moz-border-radius:30px;
+  border-radius:30px;
+  background:#FFF;
+  position:absolute;
+  left:32px;
+  bottom:32px;
+}
+.rss-broadcast:before {
+  content: "";
+  width:302px;
+  height:302px;
+  background:transparent;
+  -moz-border-radius:190px;
+  border-radius:190px;
+  border: 32px solid #FFF;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  position:absolute;
+  left: -182px;
+  bottom: -183px;
+  -webkit-transform:rotate(-45deg);
+     -moz-transform:rotate(-45deg);
+      -ms-transform:rotate(-45deg);
+       -o-transform:rotate(-45deg);
+          transform:rotate(-45deg);
+}
+.rss-broadcast:after {
+  content: "";
+  width:180px;
+  height:180px;
+  background:transparent;
+  -moz-border-radius:125px;
+  border-radius:125px;
+  border: 32px solid #FFF;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  position:absolute;
+  bottom: -122px;
+  left: -121px;
+  -webkit-transform:rotate(-45deg);
+     -moz-transform:rotate(-45deg);
+      -ms-transform:rotate(-45deg);
+       -o-transform:rotate(-45deg);
+          transform:rotate(-45deg);
+}
+
 
 /* BADGE RIBBON */
 
 .badge-ribbon-wrapper {
   z-index: 5;
   position: relative;
-  margin:0px auto 65px;
+  margin:0px auto 85px;
   width: 98px;
   -webkit-transform: scale(.9);
      -moz-transform: scale(.9);
@@ -461,7 +533,7 @@
       -ms-transform: scaleY(.09) scalex(.6);
        -o-transform: scaleY(.09) scalex(.6);
           transform: scaleY(.09) scalex(.6);
-  margin:-10px auto 0;
+  margin:-10px auto 0 35px;
   position:relative;
 }
 #infinity {
@@ -499,3 +571,5 @@
          -o-transform: rotate(45deg);
             transform: rotate(45deg);
 }
+
+
