@@ -11,8 +11,9 @@ Assorted all CSS shapes and icons
 - 1st Prize Ribbon
 - Infinity squished
 - Pencil (edit icon)
+- RSS icon
 
 # In the works
 
-- RSS icon
+
 
