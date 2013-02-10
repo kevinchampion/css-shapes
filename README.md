@@ -16,5 +16,14 @@ Assorted all CSS shapes and icons
 # In the works
 
 - Calendar
+- Refresh
+- Settings
+- Trashcan
+- Label (Tag)
+- Folder
+- Envelope
+- House
+- Document
+
 
 
