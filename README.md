@@ -12,6 +12,7 @@ Assorted all CSS shapes and icons
 - [Infinity squished](http://kevinchampion.github.com/css-shapes/infinity-squished.html)
 - [Pencil (edit icon)](http://kevinchampion.github.com/css-shapes/pencil.html)
 - [RSS icon](http://kevinchampion.github.com/css-shapes/rss.html)
+- [Email icon](http://kevinchampion.github.com/css-shapes/email.html)
 
 # In the works
 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>Email</title>
+
+  <link rel='stylesheet' href='css/boilerplate.css'>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <div class="inner-wrapper">
+
+    <div class="shape-wrapper left">
+
+      <h1>Email</h1>
+
+      <div class="shape">
+
+        <div class="email-wrapper">
+          <div class="email-body"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="style right">
+
+      <style style="display:block;" contenteditable="">
+
+.email-wrapper {
+  margin:-40px auto 0;
+  top: 50%;
+  position:relative;
+  z-index:5;
+}
+.email-body {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 75px solid #0088CC;
+  margin: 0 auto;
+  position:relative;
+}
+.email-body:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 157px solid #0088cc;
+  border-top: 118px solid transparent;
+  position: absolute;
+  left: -100px;
+  top: -61px;
+}
+.email-body:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-right: 157px solid #0088cc;
+  border-top: 118px solid transparent;
+  position: absolute;
+  left: -57px;
+  top: -61px;
+}
+
+      </style>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
