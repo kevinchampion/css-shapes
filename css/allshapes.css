@@ -364,10 +364,14 @@
 /* EMAIL */
 
 .email-wrapper {
-  margin:-40px auto 0;
-  top: 50%;
+  margin:-15px auto 60px;
   position:relative;
   z-index:5;
+  -webkit-transform: scale(.4);
+     -moz-transform: scale(.4);
+      -ms-transform: scale(.4);
+       -o-transform: scale(.4);
+          transform: scale(.4);
 }
 .email-body {
   width: 0;
