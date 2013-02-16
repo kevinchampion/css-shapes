@@ -13,6 +13,7 @@ Assorted all CSS shapes and icons
 - [Pencil (edit icon)](http://kevinchampion.github.com/css-shapes/pencil.html)
 - [RSS icon](http://kevinchampion.github.com/css-shapes/rss.html)
 - [Email icon](http://kevinchampion.github.com/css-shapes/email.html)
+- [Gmail icon](http://kevinchampion.github.com/css-shapes/gmail.html)
 
 # In the works
 
