@@ -403,6 +403,104 @@
   top: -61px;
 }
 
+/* GMAIL */
+
+.gmail-wrapper {
+  margin:-60px auto -30px;
+  position:relative;
+  z-index:5;
+  width: 240px;
+  height: 160px;
+  background:#97978B;
+  -moz-border-radius:26px;
+  border-radius:26px;
+  border:35px solid #CC3225;
+  -webkit-transform: scale(.3);
+     -moz-transform: scale(.3);
+      -ms-transform: scale(.3);
+       -o-transform: scale(.3);
+          transform: scale(.3);
+}
+.gmail-flap {
+  width: 0;
+  height: 0;
+  border-left: 155px solid transparent;
+  border-right: 155px solid transparent;
+  border-top: 110px solid #CC3225;
+  margin: 0 auto;
+  position: relative;
+  top:0px;
+  left: -35px;
+  z-index: 10;
+}
+.gmail-flap:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 132px solid transparent;
+  border-right: 132px solid transparent;
+  border-top: 98px solid #E9E6D5;
+  margin: 0 auto;
+  position:absolute;
+  top:-145px;
+  left:-132px;
+  z-index:15;
+}
+.gmail-flap:after {
+  content: "";
+  width: 141px;
+  height: 0;
+  border-bottom: 5px solid #9F9F92;
+  border-left: 4px solid transparent;
+  border-right: 2px solid transparent;
+  position: absolute;
+  left: -135px;
+  top: 38px;
+  -webkit-transform:rotate(-35deg);
+     -moz-transform:rotate(-35deg);
+      -ms-transform:rotate(-35deg);
+       -o-transform:rotate(-35deg);
+          transform:rotate(-35deg);
+}
+.gmail-body {
+  width: 240px;
+  height: 169px;
+  margin: 0 auto;
+  position: relative;
+  top: -84px;
+  left: 0px;
+  z-index: 5;
+  background: #f5f5e5; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #f5f5e5 0%, #d3d1bd 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f5f5e5), color-stop(100%,#d3d1bd)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #f5f5e5 0%,#d3d1bd 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #f5f5e5 0%,#d3d1bd 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #f5f5e5 0%,#d3d1bd 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #f5f5e5 0%,#d3d1bd 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5e5', endColorstr='#d3d1bd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.gmail-body:after {
+  content: "";
+  width: 35px;
+  height: 194px;
+  background:#91231B;
+  border-radius:0 0 26px 0;
+  position:absolute;
+  right:-35px;
+  top:-26px;
+}
+
+.gmail-body:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-right: 239px solid #9C9C90;
+  border-bottom: 169px solid transparent;
+  position:absolute;
+  right:0px;
+  top:0px;
+}
+
 
 /* BADGE RIBBON */
 
