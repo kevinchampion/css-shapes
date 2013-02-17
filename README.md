@@ -14,10 +14,12 @@ Assorted all CSS shapes and icons
 - [RSS icon](http://kevinchampion.github.com/css-shapes/rss.html)
 - [Email icon](http://kevinchampion.github.com/css-shapes/email.html)
 - [Gmail icon](http://kevinchampion.github.com/css-shapes/gmail.html)
+- [Calendar](http://kevinchampion.github.com/css-shapes/calendar.html)
+
 
 # In the works
 
-- Calendar
+- Google Calendar
 - Refresh
 - Settings
 - Trashcan
