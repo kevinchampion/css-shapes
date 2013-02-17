@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>Google Calendar</title>
+
+  <link rel='stylesheet' href='css/boilerplate.css'>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <div class="inner-wrapper">
+
+    <div class="shape-wrapper left">
+
+      <h1>Google Calendar</h1>
+
+      <div class="shape">
+
+        <div class="gcal-wrapper">
+          <div class="gcal-content">31</div>
+          <div class="gcal-corner"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="style right">
+
+      <style style="display:block;" contenteditable="">
+
+.gcal-wrapper {
+  margin:-40px auto 0;
+  top: 50%;
+  position:relative;
+  z-index:5;
+  width: 310px;
+  height: 200px;
+  -moz-border-radius:26px 26px 0 0;
+  border-radius:26px 26px 0 0;
+  background: #3278fe; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #3278fe 0%, #1959f0 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#3278fe), color-stop(100%,#1959f0)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #3278fe 0%,#1959f0 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #3278fe 0%,#1959f0 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #3278fe 0%,#1959f0 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #3278fe 0%,#1959f0 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3278fe', endColorstr='#1959f0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.gcal-wrapper:after {
+  content: "";
+  width: 233px;
+  height: 83px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -78px;
+  -moz-border-radius:0 0 0 26px;
+  border-radius:0 0 0 26px;
+  background: #286cf9; /* Old browsers */
+  background: -moz-linear-gradient(left,  #286cf9 0%, #1d5ef2 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#286cf9), color-stop(100%,#1d5ef2)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #286cf9 0%,#1d5ef2 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #286cf9 0%,#1d5ef2 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #286cf9 0%,#1d5ef2 100%); /* IE10+ */
+  background: linear-gradient(to right,  #286cf9 0%,#1d5ef2 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#286cf9', endColorstr='#1d5ef2',GradientType=1 ); /* IE6-9 */
+}
+.gcal-content {
+  color: #FFF;
+  font-size: 204px;
+  font-family:sans-serif;
+  letter-spacing:-.04em;
+  text-align: center;
+  margin: 0 auto;
+  padding: 38px 0px 0 12px;
+  z-index: 20;
+  position: relative;
+}
+.gcal-content:before,
+.gcal-content:after {
+  content:"";
+  width:26px;
+  height:26px;
+  border-radius:13px;
+  background: #FFF;
+  position:absolute;
+  top:32px;
+}
+.gcal-content:before {
+  left:50px;
+}
+.gcal-content:after {
+  right:50px;
+}
+.gcal-corner {
+  width: 0;
+  height: 0;
+  border-left: 77px solid #8FB4FF;
+  border-bottom: 78px solid transparent;
+  margin: 0 auto;
+  position: absolute;
+  right:0;
+  bottom:-78px;
+  z-index: 25;
+}
+.gcal-corner:after {
+  content: "";
+  width: 0;
+  height: 0;
+  zoom: 1;
+  filter: alpha(opacity=30);
+  opacity: 0.3;
+  border-right: 77px solid #000;
+  border-top: 78px solid transparent;
+  position:absolute;
+  top:0;
+  right:76.5px;
+}
+
+      </style>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
