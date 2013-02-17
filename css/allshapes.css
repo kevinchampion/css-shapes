@@ -578,7 +578,7 @@
 /* GCAL */
 
 .gcal-wrapper {
-  margin:-40px auto 0;
+  margin:-80px auto -40px;
   position:relative;
   z-index:5;
   width: 310px;
