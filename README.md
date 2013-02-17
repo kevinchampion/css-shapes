@@ -15,11 +15,11 @@ Assorted all CSS shapes and icons
 - [Email icon](http://kevinchampion.github.com/css-shapes/email.html)
 - [Gmail icon](http://kevinchampion.github.com/css-shapes/gmail.html)
 - [Calendar](http://kevinchampion.github.com/css-shapes/calendar.html)
+- [Google Calendar](http://kevinchampion.github.com/css-shapes/gcal.html)
 
 
 # In the works
 
-- Google Calendar
 - Refresh
 - Settings
 - Trashcan
