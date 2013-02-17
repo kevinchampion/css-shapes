@@ -504,7 +504,7 @@
 /* CALENDAR */
 
 .calendar-wrapper {
-  margin:-30px auto 30px;
+  margin:-20px auto 55px;
   position:relative;
   z-index:5;
   -webkit-transform: scale(.33);
