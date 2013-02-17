@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>Calendar</title>
+
+  <link rel='stylesheet' href='css/boilerplate.css'>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <div class="inner-wrapper">
+
+    <div class="shape-wrapper left">
+
+      <h1>Calendar</h1>
+
+      <div class="shape">
+
+        <div class="calendar-wrapper">
+          <div class="calendar-top"></div>
+          <div class="calendar-bottom"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="style right">
+
+      <style style="display:block;" contenteditable="">
+
+.calendar-wrapper {
+  margin:-40px auto 0;
+  top: 50%;
+  position:relative;
+  z-index:5;
+}
+.calendar-top {
+  width: 240px;
+  height: 48px;
+  background:#0088CC;
+  margin: 0 auto;
+  position: relative;
+  top:-12px;
+  left:0px;
+  z-index: 10;
+  -moz-border-radius:26px 26px 0 0;
+  border-radius:26px 26px 0 0;
+}
+.calendar-top:before,
+.calendar-top:after {
+  content: "";
+  width: 14px;
+  height: 32px;
+  background: #0088CC;
+  border: 8px solid #FFF;
+  margin: 0 auto;
+  position: absolute;
+  top: -18px;
+}
+.calendar-top:before {
+  left:58px;
+}
+.calendar-top:after {
+  right:58px;
+}
+.calendar-bottom {
+  width: 240px;
+  height: 46px;
+  background:#0088CC;
+  margin: 0 auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+}
+.calendar-bottom:before {
+  content: "";
+  width: 166px;
+  height: 81px;
+  background:#0088CC;
+  -moz-border-radius:0 0 0 26px;
+  border-radius:0 0 0 26px;
+  position:absolute;
+  left:0px;
+  top:39px;
+}
+.calendar-bottom:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 64px solid #0088cc;
+  border-bottom: 64px solid transparent;
+  position:absolute;
+  right:0px;
+  top:56px;
+}
+
+      </style>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
