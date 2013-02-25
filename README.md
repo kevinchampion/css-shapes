@@ -16,18 +16,19 @@ Assorted all CSS shapes and icons
 - [Gmail icon](http://kevinchampion.github.com/css-shapes/gmail.html)
 - [Calendar](http://kevinchampion.github.com/css-shapes/calendar.html)
 - [Google Calendar](http://kevinchampion.github.com/css-shapes/gcal.html)
+- [Trashcan](http://kevinchampion.github.com/css-shapes/trash.html)
 
 
 # In the works
 
 - Refresh
 - Settings
-- Trashcan
 - Label (Tag)
 - Folder
 - Envelope
 - House
 - Document
+- Sailboat
 
 
 
