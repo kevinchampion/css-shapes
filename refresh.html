@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>Refresh</title>
+
+  <link rel='stylesheet' href='css/boilerplate.css'>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <div class="inner-wrapper">
+
+    <div class="shape-wrapper left">
+
+      <h1>Refresh</h1>
+
+      <div class="shape">
+
+        <div class="refresh-wrapper">
+          <div class="refresh-body"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="style right">
+
+      <style style="display:block;" contenteditable="">
+
+.refresh-wrapper {
+  margin:0 auto 0;
+  top: 50%;
+  position:relative;
+  z-index:5;
+}
+.refresh-body {
+  width: 200px;
+  height: 200px;
+  position:relative;
+  margin: 0 auto;
+  z-index: 25;
+  background:transparent;
+  -moz-border-radius:140px;
+  border-radius:140px;
+  border:40px solid #0088CC;
+  border-right-color:transparent;
+}
+.refresh-body:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: -47px;
+  left:121px;
+  border-right: 120px solid #0088cc;
+  border-top: 120px solid transparent;
+}
+
+      </style>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
