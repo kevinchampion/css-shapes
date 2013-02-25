@@ -709,7 +709,7 @@
 /* REFRESH */
 
 .refresh-wrapper {
-  margin:-75px auto -55px;
+  margin:-85px auto -65px;
   position:relative;
   z-index:5;
   -webkit-transform: scale(.25);
